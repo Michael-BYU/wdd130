@@ -1,0 +1,30 @@
+.callout {
+	width: auto;
+    margin: 10px;
+    border: 5px solid;
+    padding: 10px;
+    background-color: darkblue;
+    color: dodgerblue;
+}
+
+.callout img {
+	float: right;
+    margin: 10px;
+    border: 5px solid;
+    padding: 10px;
+    background-color: gray;
+    width: auto;
+    height: auto;
+}
+
+blockquote {
+	margin: auto;
+}
+
+cite {
+	display: block;
+    border-top: 1px dotted;
+    padding-top: 10px;
+    text-align: right;
+    font-size: small;
+}
