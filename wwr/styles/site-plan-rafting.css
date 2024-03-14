@@ -11,8 +11,8 @@ body {
     --accent1-color: #ff331f;
     --accent2-color: #0d0106;
 
-    --heading-font: '_', serif;
-    --paragraph-font:'_', serif;
+    --heading-font: 2rem, serif;
+    --paragraph-font: 1.5rem, serif;
 
     --nav-background-color: #X;
     --nav-link-color: #X;
@@ -36,7 +36,7 @@ p {
 
 nav {
     background-color: var(--nav-background-color);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
 }
 
