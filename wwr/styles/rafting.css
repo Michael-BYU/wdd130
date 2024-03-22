@@ -3,6 +3,7 @@ body {
     font-family: var(--paragraph-font);
     max-width: auto;
     padding: 20px;
+    flex: content;
 }
 
 :root {
@@ -26,8 +27,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
+    display: flex;
     padding: 20px;
     background-color: var(--accent1-color);
+    justify-content: space-evenly;
 }
 
 p {
@@ -38,6 +41,8 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav a {
@@ -56,23 +61,89 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-.hero img {
-    display: block;
+.hero {
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.hero div {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    /* padding: 80px; */
+}
+
+h1 {
+    align-self: center;
+    
+}
+
+/* article {
+    display: flex;
+    position: absolute;
+    justify-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: auto;
+} */
+
+.client {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.client img{
+    height: 200px;
+    width: auto;
+}
+
+.client p {
+    height: 100px;
+    width: 300px;
+}
+
+.social-links {
+    display: grid;
+    grid-template-columns: 5fr 100px 100px 100px;
+}
+
+.info {
+    display: flex;
+    align-content: center;
+    color: var(--primary-color);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: auto;
 }
 
-h1 {
-    position: absolute;
+.rafts img {
+    flex-direction: row;
+    width: 100px;
+    height: auto;
 }
 
-article {
-    display: block;
-    position: absolute;
-    float: right;
+.rafts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.client {
-    float: inline-end;
+figure {
+    display: flex;
+    flex-flow: column;
 }
 
+figcaption {
+    text-align: center;
+}
