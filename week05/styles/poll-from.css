@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Futura");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Futura";
+    font-size: 1.5em;
+}
+
+h1, header {
+    font-family: "Futura";
+    text-align: center;
+}
+
+form {
+    width: auto;
+    display: grid;
+    margin: 0 auto;
+    padding: 0;
+    border: 5px solid gray;
+    border-radius: 1.2rem;
+    background-color: aquamarine;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 5px;
+}
+
+input, select, textarea {
+    font-size: larger;
+    padding: 5px;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+button {
+    width: 0 auto;
+    height: auto;
+    font-size: 1.5rem;
+    border-radius: 1.2rem;
+}
+
+button:hover {
+    background-color: bisque;
+}
+
+footer {
+    text-align: center;
+}
+
+.from-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 5px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
+}
