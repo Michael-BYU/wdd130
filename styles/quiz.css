@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Futura");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Futura";
+    font-size: 1.5em;
+}
+
+h1, header {
+    font-family: "Futura";
+    text-align: center;
+}
+
+form {
+    width: auto;
+    display: grid;
+    margin: 0 auto;
+    padding: 0;
+    border: 5px solid rgb(65, 65, 65);
+    border-radius: 1.2rem;
+    background-color: rgb(228, 176, 157);
+}
+
+label {
+    text-align: center;
+    padding-right: 5px;
+}
+
+input, select, textarea {
+    font-size: larger;
+    padding: 5px;
+}
+
+button {
+    width: 0 auto;
+    height: auto;
+    font-size: 1.5rem;
+    border-radius: 1.2rem;
+}
+
+button:hover {
+    background-color: bisque;
+}
+
+footer {
+    text-align: center;
+}
