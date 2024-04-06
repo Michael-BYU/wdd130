@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body {
     font-family: var(--paragraph-font);
-    max-width: auto;
+    width: auto;
     padding: 20px;
     flex: content;
 }
@@ -24,6 +24,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
+    align-self: center;
 }
 
 header {
@@ -63,7 +64,6 @@ nav a:hover {
 
 .hero {
     display: flex;
-    /* justify-content: center; */
     align-content: center;
     width: 100%;
     height: auto;
@@ -75,22 +75,7 @@ nav a:hover {
     position: absolute;
     flex-direction: column;
     width: 100%;
-    /* padding: 80px; */
 }
-
-h1 {
-    align-self: center;
-    
-}
-
-/* article {
-    display: flex;
-    position: absolute;
-    justify-items: center;
-    justify-content: space-evenly;
-    width: 1000px;
-    height: auto;
-} */
 
 .client {
     display: flex;
@@ -115,6 +100,7 @@ h1 {
 
 .info {
     display: flex;
+    flex-direction: row;
     align-content: center;
     color: var(--primary-color);
 }
@@ -129,11 +115,23 @@ section {
 
 .rafts img {
     flex-direction: row;
-    width: 100px;
+    width: 200px;
+    height: auto;
+}
+
+.employees img {
+    flex-direction: row;
+    width: 200px;
     height: auto;
 }
 
 .rafts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.employees {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -146,4 +144,46 @@ figure {
 
 figcaption {
     text-align: center;
+}
+
+form {
+    width: auto;
+    display: grid;
+    margin: 0 auto;  
+}
+
+fieldset {
+    display: grid;
+    justify-content: center;
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+label {
+    padding-right: 5px;
+}
+
+input, select, textarea {
+    font-size: larger;
+    padding: 5px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    width: auto;
+    height: auto;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: bisque;
 }
