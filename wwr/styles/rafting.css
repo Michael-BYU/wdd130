@@ -147,6 +147,7 @@ section {
 figure {
     display: flex;
     flex-flow: column;
+    align-items: center;
 }
 
 figcaption {
@@ -158,6 +159,10 @@ form {
     display: grid;
     margin: 0 auto;  
 }
+
+table, th, td {
+    border:1px solid black;
+  }
 
 fieldset {
     display: grid;
