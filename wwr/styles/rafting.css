@@ -138,6 +138,19 @@ section {
     align-items: center;
 }
 
+.rafts-index {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.rafts-index img {
+    height: auto;
+    width: 300px;
+    
+}
+
 .employees {
     display: flex;
     flex-direction: row;
@@ -157,7 +170,9 @@ figcaption {
 form {
     width: auto;
     display: grid;
-    margin: 0 auto;  
+    margin: 20px auto; 
+    border: #3626a7 solid;
+    padding: 5px;  
 }
 
 table, th, td {
